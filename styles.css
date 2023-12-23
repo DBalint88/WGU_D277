@@ -1,6 +1,13 @@
 * {
     box-sizing: border-box;
 }
+body {
+    background-color: black;
+}
+
+nav {
+    background-color: white;
+}
 
 nav ul {
     margin: 0;
@@ -27,7 +34,6 @@ nav a:visited {
 
 nav {
     grid-area: nav;
-    background-color: aqua;
 }
 
 header {

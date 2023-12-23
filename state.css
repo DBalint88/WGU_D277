@@ -3,7 +3,7 @@
 body {
     min-height: 100vh;
     display: grid;
-    grid-template-rows: 2rem 10rem 1fr 10rem;
+    grid-template-rows: 2rem 30rem 1fr 10rem;
     grid-template-areas: 
         "nav"
         "header"
@@ -11,8 +11,40 @@ body {
         "footer";
 }
 
+header {
+    color: aliceblue;
+    display: flex;
+    flex-direction:column;
+    justify-content: end;
+    padding-left: 5rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)), url(images/mirror_lake.jpg);
+}
 
+header figcaption {
+    background-color: rgba(0, 0, 0, 0.6);
+    align-self: end;
+}
 
+header figcaption a {
+    color: white;
+}
+
+h1 {
+    font-size: 6rem;
+    font-weight: 500;
+    text-decoration: underline;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 3rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
 
 aside {
     float: right;
