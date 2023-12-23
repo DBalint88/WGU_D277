@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 2rem 10rem 1fr 10rem;
+    grid-template-areas: 
+        "nav"
+        "header"
+        "main"
+        "footer";
+}
+
+nav {
+    grid-area: nav;
+    background-color: aqua;
+}
+
+header {
+    grid-area: header;
+    background-color: blue;
+}
+
+main {
+    grid-area: main;
+    background-color: blueviolet;
+}
+
+section {
+    min-height: 100%;
+    background-color: orange;
+}
+
+aside {
+    float: right;
+    background-color: black;
+    color: white;
+    height: 10rem;
+    width: 20vw;
+}
+
+footer {
+    grid-area: footer;
+    background-color: brown;
+}
+
+
