@@ -1,6 +1,4 @@
-* {
-    box-sizing: border-box;
-}
+
 
 body {
     min-height: 100vh;
@@ -12,17 +10,6 @@ body {
         "main"
         "footer";
 }
-
-nav {
-    grid-area: nav;
-    background-color: aqua;
-}
-
-header {
-    grid-area: header;
-    background-color: blue;
-}
-
 
 #city-pic {
     width: 50%;
@@ -40,20 +27,5 @@ figcaption {
     text-align: center;
 }
 
-main {
-    grid-area: main;
-    background-color: blueviolet;
-}
-
-section {
-    min-height: 100%;
-    background-color: orange;
-}
-
-
-footer {
-    grid-area: footer;
-    background-color: brown;
-}
 
 

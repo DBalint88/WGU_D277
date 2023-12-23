@@ -1,6 +1,4 @@
-* {
-    box-sizing: border-box;
-}
+
 
 body {
     min-height: 100vh;
@@ -13,25 +11,8 @@ body {
         "footer";
 }
 
-nav {
-    grid-area: nav;
-    background-color: aqua;
-}
 
-header {
-    grid-area: header;
-    background-color: blue;
-}
 
-main {
-    grid-area: main;
-    background-color: blueviolet;
-}
-
-section {
-    min-height: 100%;
-    background-color: orange;
-}
 
 aside {
     float: right;
@@ -41,9 +22,6 @@ aside {
     width: 20vw;
 }
 
-footer {
-    grid-area: footer;
-    background-color: brown;
-}
+
 
 
