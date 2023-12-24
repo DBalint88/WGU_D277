@@ -1,8 +1,13 @@
 * {
     box-sizing: border-box;
 }
+html {
+    background-color: white;
+}
 body {
-    background-color: black;
+    background-color: white;
+    max-width: 1280px;
+    margin: auto;
 }
 
 nav {
@@ -41,14 +46,37 @@ header {
     background-color: blue;
 }
 
+h1 {
+    font-size: 6rem;
+    font-weight: 500;
+    text-decoration: underline 4px;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 3rem;
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+
+h3 {
+    text-decoration: underline;
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+h4 {
+    text-decoration: underline;
+    font-size: 1.5rem;
+}
+
 main {
     grid-area: main;
-    background-color: blueviolet;
+    background-color: white;
 }
 
 section {
     min-height: 100%;
-    background-color: orange;
 }
 
 footer {
