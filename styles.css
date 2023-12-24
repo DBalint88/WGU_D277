@@ -81,5 +81,9 @@ section {
 
 footer {
     grid-area: footer;
-    background-color: brown;
+    border-top: 2px solid black;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
