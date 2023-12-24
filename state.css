@@ -19,7 +19,7 @@ header {
     display: flex;
     flex-direction:column;
     justify-content: end;
-    padding-left: 5rem;
+    padding-left: 1rem;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -40,7 +40,7 @@ aside {
     float: right;
     height: min-content;
     width: 20vw;
-    margin: 1rem 1rem 1rem 1rem;
+    margin: 1rem 0 1rem 1rem;
     padding: 1rem 1rem 1rem 1rem;
     border: 1px solid black
 }
@@ -55,6 +55,10 @@ aside figcaption {
 
 aside figcaption a {
     color: blue;
+}
+
+aside p {
+    margin-bottom: 0;
 }
 
 
