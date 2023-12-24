@@ -87,3 +87,32 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+}
+
+th {
+    font-weight: 900;
+    text-align: left;
+    padding: .5rem 1rem;
+}
+
+.tabletop {
+    text-align: center;
+}
+
+td {
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+.score {
+    background-color: yellow;
+}
