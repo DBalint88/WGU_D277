@@ -25,20 +25,29 @@
             </ul>
         </nav>
         <header>
-            <h1>Sign Up</h1>
+            <h1>Contact Us</h1>
             <figcaption>Image by <a href="https://pixabay.com/users/12019-12019/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1604152">12019</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1604152">Pixabay</a></figcaption>
         </header>
         <main>
             <form action="POST">
-                <label for="first" placeholder="First Name">First Name:</label>
-                <input type="text" name="first">
-                <label for="last" placeholder="Last Name">Last Name:</label>
-                <input type="text" name="last">
-                <label id="email-field" for="email" placeholder="Address@domain.com">Email:</label>
-                <input type="email" name="email">
-                <label id="verify-field" for="email-v" placeholder="Address@domain.com">Re-type Email:</label>
-                <input type="email" name="email-v">
-                <button>Submit</button>
+                <label for="first">First Name:</label>
+                <input type="text" id="first" name="first" placeholder="First Name">
+
+                <label for="last">Last Name:</label>
+                <input type="text" id="last" name="last" placeholder="Last Name">
+
+                <label for="email-field">Email:</label>
+                <input id="email-field"  type="email" name="email" placeholder="Address@domain.com">
+
+                <label for="verify-field" >Re-type Email:</label>
+                <input id="verify-field" type="email" name="email-v" placeholder="Address@domain.com">
+
+                <label for="question">Question: </label>
+                <textarea name="question" id="question" cols="30" rows="10" placeholder="Ask a question..."></textarea>
+
+                <p id="feedback-span"></p>
+
+                <button id="submit-button">Submit</button>
             </form>
         </main>
         <footer>

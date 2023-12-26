@@ -143,6 +143,9 @@ input {
     display: block;
 }
 
-button {
-    margin-top: 1rem
+
+
+#feedback-span {
+    color: red;
+    margin: 0;
 }
