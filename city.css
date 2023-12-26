@@ -41,6 +41,7 @@ p {
     margin-top: -3rem;
     margin-right: 1rem;
     margin-left: 1rem;
+    position: relative;
 }
 
 .city-pic img {
@@ -48,8 +49,13 @@ p {
     border-radius: 1rem;
 }
 
-figcaption {
-    text-align: center;
+.state-pic-fig {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, .7);
+    font-size: 80%;
 }
 
 .mid-page-aside {

@@ -36,6 +36,10 @@ header figcaption a {
     color: white;
 }
 
+#ext-link {
+    width: 1rem;
+}
+
 aside {
     float: right;
     height: min-content;
