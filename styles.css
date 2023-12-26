@@ -132,3 +132,17 @@ tr:last-child td {
 .score {
     background-color: yellow;
 }
+
+form {
+    width: min-content;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+input {
+    display: block;
+}
+
+button {
+    margin-top: 1rem
+}

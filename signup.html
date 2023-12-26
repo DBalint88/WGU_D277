@@ -29,7 +29,17 @@
             <figcaption>Image by <a href="https://pixabay.com/users/12019-12019/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1604152">12019</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1604152">Pixabay</a></figcaption>
         </header>
         <main>
-            
+            <form action="POST">
+                <label for="first" placeholder="First Name">First Name:</label>
+                <input type="text" name="first">
+                <label for="last" placeholder="Last Name">Last Name:</label>
+                <input type="text" name="last">
+                <label id="email-field" for="email" placeholder="Address@domain.com">Email:</label>
+                <input type="email" name="email">
+                <label id="verify-field" for="email-v" placeholder="Address@domain.com">Re-type Email:</label>
+                <input type="email" name="email-v">
+                <button>Submit</button>
+            </form>
         </main>
         <footer>
             <p>This website built by Daniel Balint for WGU D277 Front End Web Development</p>
