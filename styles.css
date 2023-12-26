@@ -12,6 +12,8 @@ body {
     max-width: 1280px;
     margin: auto;
     padding: 1rem;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
 }
 
 nav {
@@ -87,6 +89,7 @@ main {
 section {
     min-height: 100%;
 }
+
 
 footer {
     grid-area: footer;

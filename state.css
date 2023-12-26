@@ -2,9 +2,7 @@
 
 body {
     min-height: 100vh;
-    border-left: 4px solid black;
-    border-right: 4px solid black;
-    padding: 1rem;
+    
     display: grid;
     grid-template-rows: 2rem 30rem 1fr 6rem;
     grid-template-areas: 
@@ -26,6 +24,8 @@ header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2),
         rgba(0, 0, 0, 0.2)), url(images/mirror_lake.jpg);
 }
+
+
 
 header figcaption {
     background-color: rgba(0, 0, 0, 0.6);
