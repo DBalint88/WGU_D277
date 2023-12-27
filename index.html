@@ -19,8 +19,6 @@
                 <li><a href="new-haven.html">New Haven</a></li>
                 <li>|</li>
                 <li><a href="middletown.html">Middletown</a></li>
-                <li>|</li>
-                <li><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
         <header>
@@ -35,7 +33,7 @@
                         <img src="images/flag.png" alt="The Connecticut State Flag which depicts a coat of arms with three grape vines and a banner which reads 'Qui transtulit sustinet'">
                         <figcaption>Image by <a href="https://pixabay.com/users/clker-free-vector-images-3736/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=31012">Clker-Free-Vector-Images</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=31012">Pixabay</a></figcaption>
                     </div>
-                    <p>The Connecticut state flag was adopted in 1897 and features three grape vines thought to represent three original sub colonies. The latin "Qui transtulit sustinet" means "He who transplanted still sustains."</p>
+                    <p>The Connecticut state flag was adopted in 1897 and features three grape vines that represent the three original sub colonies. The latin "Qui transtulit sustinet" means "He who transplanted still sustains."</p>
                 </aside>
                 <article>
                     <h3>About Connecticut</h3>
@@ -87,19 +85,41 @@
                                 <td>10</td>
                                 <td>10</td>
                                 <td>8</td>
-                                <td><span class="score">39</span></td>
+                                <td><span class="score">38</span></td>
                             </tr>
 
                         </tbody>
                         
 
                     </table>
-                    <p>As can be seen, it is with pure science that this has been show to be the true ranking of New Haven pizzas, and anyone who says otherwise is from out of town and doesn't know better.</p>
+                    <p>As can be seen, it is with pure science that this has been shown to be the true ranking of New Haven pizzas, and anyone who says otherwise must be from out of town.</p>
                     
                 </article>
                 
             </section>
-
+            <section>
+                <h3>Contact Us</h3>
+                <form>
+                    <label for="first">First Name:</label>
+                    <input type="text" id="first" name="first" placeholder="First Name">
+    
+                    <label for="last">Last Name:</label>
+                    <input type="text" id="last" name="last" placeholder="Last Name">
+    
+                    <label for="email-field">Email:</label>
+                    <input id="email-field"  type="email" name="email" placeholder="Address@domain.com">
+    
+                    <label for="verify-field" >Re-type Email:</label>
+                    <input id="verify-field" type="email" name="email-v" placeholder="Address@domain.com">
+    
+                    <label for="question">Question: </label>
+                    <textarea name="question" id="question" cols="30" rows="10" placeholder="Ask a question..."></textarea>
+    
+                    <p id="feedback-span"></p>
+    
+                    <button id="submit-button">Submit</button>
+                </form>
+            </section>
         </main>
         <footer>
             <p>This website built by Daniel Balint for WGU D277 Front End Web Development</p>

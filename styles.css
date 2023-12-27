@@ -90,7 +90,7 @@ main {
     line-height: 1.8;
 }
 
-section {
+main {
     min-height: 100%;
 }
 
@@ -141,7 +141,9 @@ form {
 
 input {
     display: block;
+    margin: auto;
 }
+
 
 
 
